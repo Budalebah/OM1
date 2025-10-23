@@ -31,7 +31,7 @@ Before contributing, please take a moment to read through the following guidelin
 
 2.  **Clone Your Fork with CLI:**
     ```bash
-    git clone [https://github.com/](https://github.com/)<your-username>/OM1.git
+    git clone https://github.com/<your-username>/OM1.git
     cd OM1
     ```
     (Replace `<your-username>` with your GitHub username.)
@@ -74,7 +74,7 @@ Before contributing, please take a moment to read through the following guidelin
 
 **Code of Conduct:**
 
-Please review and adhere to our [Code of Conduct](./). We expect all contributors to be respectful and inclusive.
+Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to be respectful and inclusive.
 
 **Getting Help:**
 
