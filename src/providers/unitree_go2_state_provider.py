@@ -24,7 +24,7 @@ state_machine_codes = {
     100: "Agile",
     1001: "Damping",
     1002: "Standing Lock",
-    1004: "Crouch",  # Also maps to 2006
+    1004: "Crouch",
     1006: "Greeting/Stretching/Dancing/Bowing/Heart Shape/Happy",
     1007: "Sit",
     1008: "Front Jump",
@@ -34,7 +34,6 @@ state_machine_codes = {
     1016: "Regular Running",
     1017: "Regular Endurance",
     1091: "Strike a Pose",
-    2006: "Crouch",  # Duplicate of 1004
     2007: "Dodge",
     2008: "Bound Run",
     2009: "Jump Run",
