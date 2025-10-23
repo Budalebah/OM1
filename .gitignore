@@ -37,6 +37,7 @@ logs/
 # Data files
 *.jsonl
 *.jpg
+*.wav
 /zenohdb
 /locations
 

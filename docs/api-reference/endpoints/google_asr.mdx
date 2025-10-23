@@ -46,8 +46,21 @@ You can also forward the base64 encoded audio data directly to the API endpoint:
 ```json
 {
   "audio": "base64_encoded_audio_data",
-  "rate": 16000
+  "rate": 16000,
+  "language": "en-US"
 }
 ```
 
-Note: The `rate` parameter specifies the sample rate of the audio data in Hz. The `rate` parameter is optional and defaults to 16000. 
+**Request Parameters:**
+- `audio` (required): Base64 encoded audio data
+- `rate` (optional): Sample rate in Hz (default: 16000)
+- `language` (optional): Language code (e.g., "en-US", "id-ID", "tr-TR")
+
+**Response Format:**
+```json
+{
+  "asr_reply": "transcribed text here"
+}
+```
+
+**Note:** The HTTP endpoint returns 404. Use WebSocket endpoint for ASR functionality. 

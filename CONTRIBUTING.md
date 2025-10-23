@@ -72,6 +72,12 @@ Before contributing, please take a moment to read through the following guidelin
 *   **Tests:** Write unit tests to ensure your code works as expected.  Use a testing framework like `pytest`.
 *   **Type Hints:** Use type hints (PEP 484) to improve code readability and maintainability.
 
+**Security and Environment Variables:**
+
+*   **Environment Files:** Never commit `.env` files or other files containing secrets to the repository. These files are automatically ignored by `.gitignore`.
+*   **Audio Files:** Audio files (`.wav`, `.mp3`, etc.) are also ignored to prevent accidentally committing large files.
+*   **API Keys:** Always use environment variables for API keys and sensitive configuration.
+
 **Code of Conduct:**
 
 Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to be respectful and inclusive.
